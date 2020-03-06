@@ -1,6 +1,5 @@
 
     module.exports = function check(str, bracketsConfig) {
-        let strLength = str.length;
         let startEnd = [];
 
         bracketsConfig.forEach(element => {
